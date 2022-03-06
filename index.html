@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400&family=Syne+Mono&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        syneMono: ['Syne Mono', "monospace"]
+                    },
+                    colors: {
+                        black: '#1A1A1D',
+                        gray: '#4E4E50',
+                        lightRed: '#652232',
+                        pink: '#950740',
+                        red: '#C3073F',
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <header class="w-full h-50 flex justify-center">
+        <nav class="h-50 w-4/5 font-syneMono flex justify-between  items-center">
+            <h1 class="text-4xl">Mission 2022</h1>
+            <ul class="flex gap-x-5 text-xl">
+                <li>Focus</li>
+                <li>Mission</li>
+                <li>Develop</li>
+                <li>Communication</li>
+            </ul>
+        </nav>
+    </header>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
